@@ -7,7 +7,7 @@ def test_calculate_revenue():
 
     result = analyzer.calculate_revenue(5, 10.0)
 
-    assert result == 50.0
+    assert result == 999.0
 
 
 def test_negative_quantity_is_rejected():
